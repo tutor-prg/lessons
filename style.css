@@ -1,25 +1,43 @@
 *{
     margin: 0;
     padding: 0;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
 
-body{
+#doc{
     width: 800px;
     margin: auto;
-    background-color: azure;
+    /* background-color: azure; */
 }
 
 header{
-    background-color: aliceblue;
+    background-color: greenyellow;
+    overflow: auto;
+}
+
+#main-logo-div{
+    display: inline-block;
+    border-radius: 50px;
+    border: 2px rgb(151, 229, 34) solid;
+    padding: 10px;
+    background-color: gold;
+    margin: 5px 0px 5px 5px;
 }
 
 #main-logo{
     width: 80px;
-    float: left
 }
 
 #title{
-    float: left;
+    float: right;
+    width: 691px;
     margin: auto;
+    margin-top: 15px;
+    /* background-color: blanchedalmond; */
+    /* display: inline-block; */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 68px;
+    color:blue;
+    font-style: italic;
 }
