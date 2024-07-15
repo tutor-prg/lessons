@@ -30,7 +30,7 @@ header{
 }
 
 header h1{
-    padding-left: 20px;
+    margin-left: 30px;
     font-size: 70px;
 }
 
@@ -59,3 +59,38 @@ footer p{
 #main-logo{
     width: 80px;
 }
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 113);
+}
+
+nav p{
+    padding: 5px 15px 5px 15px;
+    margin: 3px;
+    border: 1px solid blue;
+    border-radius: 15px;
+    background-color: rgb(197, 255, 81);
+    box-shadow: 2px 2px 4px 0px green;
+}
+
+nav p a{
+    font-weight: 900;
+    text-shadow: 1px 2px 2px darkred;
+}
+
+nav p:hover{
+    color: white;
+    background-color: blue;
+    box-shadow: 2px 2px 4px 0px darkred
+}
+
+nav p a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
