@@ -19,6 +19,8 @@ body{
 header, footer{
     background-color: greenyellow;
     overflow: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 header{
@@ -29,8 +31,12 @@ header{
     text-shadow: 2px 2px 3px darkred;
 }
 
+header > *{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 header h1{
-    margin-left: 30px;
     font-size: 70px;
 }
 
@@ -52,7 +58,7 @@ footer p{
     border: 1px blue solid;
     padding: 10px;
     background-color: gold;
-    margin: 5px 0px 5px 5px;
+    /* margin: 5px 0px 5px 5px; */
     box-shadow: 2px 2px 4px 0px darkred
 }
 
@@ -69,7 +75,7 @@ nav{
 
 nav p{
     padding: 5px 15px 5px 15px;
-    margin: 3px;
+    margin: 10px;
     border: 1px solid blue;
     border-radius: 15px;
     background-color: rgb(197, 255, 81);
