@@ -4,15 +4,32 @@
     /* border: 1px black solid; */
 }
 
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:blue;
+}
+
 #doc{
     width: 800px;
     margin: auto;
     /* background-color: azure; */
+    font-size: xx-large;
 }
 
-header{
+header, footer{
     background-color: greenyellow;
     overflow: auto;
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer p{
+    text-align: center;
 }
 
 #main-logo-div{
@@ -37,7 +54,7 @@ header{
     /* display: inline-block; */
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 68px;
     color:blue;
+    font-size: 68px;
     font-style: italic;
 }
