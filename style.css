@@ -26,6 +26,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    text-shadow: 2px 2px 3px darkred;
 }
 
 header h1{
@@ -38,6 +39,7 @@ footer{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    text-shadow: 1px 1px 1px darkred;
 }
 
 footer p{
@@ -47,10 +49,11 @@ footer p{
 #main-logo-div{
     display: inline-block;
     border-radius: 50px;
-    border: 2px rgb(151, 229, 34) solid;
+    border: 1px blue solid;
     padding: 10px;
     background-color: gold;
     margin: 5px 0px 5px 5px;
+    box-shadow: 2px 2px 4px 0px darkred
 }
 
 #main-logo{
