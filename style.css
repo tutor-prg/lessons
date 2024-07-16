@@ -15,7 +15,7 @@ body{
 }
 
 header, footer{
-    background-color: greenyellow;
+    background-color: #abefee;
     overflow: auto;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -55,7 +55,7 @@ footer p{
     border-radius: 50px;
     border: 1px blue solid;
     padding: 10px;
-    background-color: gold;
+    background-color: #f1fb8a;
     box-shadow: 2px 2px 4px 0px darkred
 }
 
@@ -67,7 +67,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgb(255, 255, 113);
+    background-color: #f8ffb5;
 }
 
 nav p{
@@ -75,7 +75,7 @@ nav p{
     margin: 10px;
     border: 1px solid blue;
     border-radius: 15px;
-    background-color: rgb(197, 255, 81);
+    background-color: #abefee;
     box-shadow: 2px 2px 4px 0px green;
 }
 
