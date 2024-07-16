@@ -10,9 +10,7 @@ body{
 }
 
 #doc{
-    /* width: 800px; */
     margin: auto;
-    /* background-color: azure; */
     font-size: x-large;
 }
 
@@ -58,7 +56,6 @@ footer p{
     border: 1px blue solid;
     padding: 10px;
     background-color: gold;
-    /* margin: 5px 0px 5px 5px; */
     box-shadow: 2px 2px 4px 0px darkred
 }
 
