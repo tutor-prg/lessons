@@ -1,0 +1,31 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-url{
+    text-decoration: none;
+}
+
+.tile{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 260px;
+    height: 100px;
+    box-shadow: 3px 3px 3px blue;
+    background-color: aquamarine;
+    margin: 10px;
+    color: blue;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.course-name{
+    font-size: xx-large;
+    font-weight: 900;
+}
